@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "review-summarizer"
+version = "0.1.0"
+description = ""
+authors = ["Chase Hiltz <chase@path.net>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.9"
+openai = "^1.58.1"
+argparse = "^1.4.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
